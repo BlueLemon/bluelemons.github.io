@@ -1,7 +1,19 @@
 ---
 ---
 
+header {
+  min-height: 600px;
+}
+
 h1 {
   font-size: 3em;
-  color: blue;
+}
+
+p {
+  max-width: 400px;
+}
+
+li {
+  width: 200px;
+  display: inline-block;
 }
