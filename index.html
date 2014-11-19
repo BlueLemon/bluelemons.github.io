@@ -5,7 +5,14 @@ title: Bluelemons
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Main Styles -->
   <link rel="stylesheet" type="text/css" href="/css/landing.css">
+
+  <!-- Importing Web Component's Polyfill -->
+  <script src="bower_components/platform/platform.js"></script>
+
+  <!-- Importing Custom Elements -->
+  <link rel="import" href="custom-elements/gravatar-img.html">
 </head>
 <body>
   <header>
@@ -41,7 +48,7 @@ title: Bluelemons
       <h3>
         Olvap
       </h3>
-      <img src="http://www.gravatar.com/avatar/ef4406ac235fdb0f2d326f451d2a5ff4" />
+      <gravatar-img hash="ef4406ac235fdb0f2d326f451d2a5ff4"/></gravatar-img>
       <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -51,7 +58,7 @@ title: Bluelemons
       <h3>
         Eloy
       </h3>
-      <img src="http://www.gravatar.com/avatar/224f5b1b5ee448ec8152236ede91908c" />
+      <gravatar-img hash="224f5b1b5ee448ec8152236ede91908c"/></gravatar-img>
       <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

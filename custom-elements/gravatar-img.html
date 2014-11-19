@@ -1,0 +1,18 @@
+<script>
+(function() {
+  // Creates an object based in the HTML Element prototype
+  var element = Object.create(HTMLElement.prototype);
+  // Fires when an instance of the element is created
+  element.createdCallback = function() {
+    var shadowRoot = this.createShadowRoot();
+    var img = document.createElement("img");
+    img.src = "http://www.gravatar.com/avatar/" +
+      this.getAttribute('hash');
+    shadowRoot.appendChild(img);
+  };
+
+  document.registerElement('gravatar-img', {
+    prototype: element
+  });
+}());
+</script>
