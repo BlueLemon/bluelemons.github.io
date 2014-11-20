@@ -3,7 +3,8 @@
 
 header , section {
   display: flex;
-  height: 600px;
+  height: 100vh;
+  min-height: 480px;
   background-color: #CCF;
   flex-direction: column;
 }
