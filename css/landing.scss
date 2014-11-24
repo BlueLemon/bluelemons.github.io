@@ -1,38 +1,83 @@
 ---
 ---
+body {
+  margin: 0;
+}
 
 header , section {
   display: flex;
   height: 100vh;
   min-height: 480px;
-  background-color: #CCF;
   flex-direction: column;
+  background-size: cover;
 }
 
-nav {
-  text-align: center;
+header {
+  background-image: url(/images/Ciudad-2012-santa-fe-oscuro.jpg);
+  position: relative;
 }
 
+header h1 {
+  color: white;
+  margin: auto;
+  max-width: 600px;
+  padding: 10px;
+}
+
+header b {
+  color: #3596b1;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header img {
+  width: 250px;
+}
+header nav {
+  color: white;
+}
+header ul {
+  justify-content: flex-end;
+}
+
+header li {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.header-end {
+  background-image: url("/images/scrolldown.png");
+  height: 98px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40px;
+}
 ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 hgroup {
-  margin: auto;
+  padding-left: 40px;
+  background-color: #333739;
 }
 
 h1 {
   text-align: center;
-  font-size:  5rem;
-  margin:     auto;
+  font-size:  3rem;
 }
 
 h2 {
   text-align: center;
-  color: #555;
 }
 
 p {
@@ -40,9 +85,8 @@ p {
 }
 
 li {
-  background-color: #EEE;
+  // background-color: #EEE;
   padding: 30px;
-  width: 300px;
-  margin: 5px;
+  // margin: 5px;
   display: inline-block;
 }
