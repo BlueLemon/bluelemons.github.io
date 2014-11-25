@@ -20,9 +20,9 @@ header {
 
 section {
   display: flex;
-  min-height: 480px;
   flex-direction: column;
   background-size: cover;
+  align-items: center;
 }
 
 a {
