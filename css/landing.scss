@@ -51,7 +51,8 @@ header li {
   padding-top: 0;
   padding-bottom: 0;
 }
-.header-end {
+header::after {
+  content: "";
   background-image: url("/images/scrolldown.png");
   height: 98px;
   background-repeat: no-repeat;
