@@ -1,6 +1,17 @@
 ---
 ---
 
+@font-face {
+  font-family: 'icons';
+  src: url('../font/icons.eot?53092169');
+  src: url('../font/icons.eot?53092169#iefix') format('embedded-opentype'),
+       url('../font/icons.woff?53092169') format('woff'),
+       url('../font/icons.ttf?53092169') format('truetype'),
+       url('../font/icons.svg?53092169#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 10vh 0 0;
   background: fixed url(/images/bn-cielo_sol.jpg) no-repeat;
@@ -56,13 +67,13 @@ nav li {
 }
 
 #home::after {
-  content: "";
-  background-image: url("/images/scrolldown.png");
-  height: 98px;
-  background-repeat: no-repeat;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40px;
+  content: '\e803';
+  font-size: 3em;
+  font-family: "icons";
+  line-height: 1em;
+  margin: 5vh;
+  text-align: center;
+  text-decoration: none;
 }
 
 section ul {
