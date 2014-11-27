@@ -1,0 +1,30 @@
+#!/bin/bash
+
+set -e
+
+FONT_DIR='./vendor/fontello'
+FONTELLO_HOST='http://fontello.com'
+
+function open {
+  curl --silent --show-error --fail --output .fontello \
+      --form "config=@${FONT_DIR}/config.json" \
+      ${FONTELLO_HOST}
+  x-www-browser ${FONTELLO_HOST}/`cat .fontello`
+}
+
+function save {
+    rm -rf .fontello.src .fontello.zip
+    curl --silent --show-error --fail --output .fontello.zip \
+        ${FONTELLO_HOST}/`cat .fontello`/get
+    unzip .fontello.zip -d .fontello.src
+    rm -rf ${FONT_DIR}
+    mv `find ./.fontello.src -maxdepth 1 -name 'fontello-*'` ${FONT_DIR}
+    rm -rf .fontello.src .fontello.zip
+}
+
+if [ "$1" = 'save' ]
+then
+  save
+else
+  open
+fi
