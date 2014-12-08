@@ -10,11 +10,9 @@ title: Bluelemons
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="/css/landing.css"/>
 
-  <!-- Importing Web Component's Polyfill -->
-  <script src="bower_components/platform/platform.js"></script>
-
+  <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
   <!-- Importing Custom Elements -->
-  <link rel="import" href="custom-elements/github-card.html">
+  <link rel="import" href="custom-elements/polymer-github-card.html">
 </head>
 <body>
 
@@ -54,10 +52,10 @@ title: Bluelemons
     </h2>
     <ul>
       <li>
-        <github-card user="olvap"></github-card>
+        <polymer-github-card user="olvap"></github-card>
       </li>
       <li>
-        <github-card user="eloyesp"></github-card>
+        <polymer-github-card user="eloyesp"></github-card>
       </li>
     </ul>
   </section>
