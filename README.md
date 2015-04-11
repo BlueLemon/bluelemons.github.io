@@ -1,15 +1,97 @@
-bluelemons.github.io
-====================
+# BlueLemons
 
-## Install
+Una software factory para cuando las demás fallan
 
-install [jeckyll](http://jekyllrb.com/docs/installation/)
+Bluelemons representa jugar con la informática y pensar que siempre se puede.
 
-    gem install jeckyll
-    git clone git@github.com:bluelemons/bluelemons.github.io.git
+> Priorizamos los objetivos a largo plazo, no las ventajas inmediatas.
 
-## Usage
+> Sinceridad
 
-    jeckyll serve
+"El cliente nunca tiene la razón"
+No le damos la razón al cliente, discutimos e intentamos que tenga éxito en lo
+que intenta, no solo tenerlo contento.
+Discutimos las limitaciones, los errores, toda la información sobre los
+proyectos de manera real, no quedamos bien a costa del cliente.
 
+> Software claro
 
+Lo más simple posible, sistemas entendíbles y fáciles de mantener.
+El software claro es menos estético que su contra parte y la usabilidad prioriza un
+uso inmediato, pero eso va en desmedro de la usabilidad real a largo plazo, la
+mantenibilidad, la articulación con otras aplicaciones y los usos en distintas
+aplicaciones.
+
+> Todos trabajan
+
+Las metodologías ágiles tienen que ver con trabajar con el cliente, no para el
+cliente.
+
+> Mejora continua
+
+Siempre intentamos utilizar las últimas tecnologías, toda inversión incluye el que
+nosotros estudiemos y apliquemos lo nuevo en el mercado, a cambio, usted obtiene
+buenas prácticas y la última tecnología.
+
+> Precio diferenciado
+
+Si nos gusta el proyecto o realmente es algo necesario, nosotros pagamos parte del
+proyecto.
+
+## El equipo
+
+### Pablo Oldani
+- **nickname:** olvap
+- **email:** oldani.pablo<at>gmail.com
+- **github:** olvap
+- **linkdin:** oldanipablo
+- **twitter:** olvap
+
+**Descripción:**
+Pablo comenzó a programar a los 10 años, leyendo el código fuente de los
+programas que su madre escribía en Cobol. Eso le permitió estudiar y
+comprender conceptos básicos de programación, y a pesar de que luego tuvo que
+estudiar durante mucho tiempo para realmente aprender a programar, esa
+experiencia en particular le mostró la importancia de mostrar y compartir el
+código con otros.
+
+Hoy en día, Pablo participa activamente en la comunidad de software libre,
+aprendiendo, compartiendo y asistiendo a distintas jornadas en el área local.
+
+Con más de 10 años de experiencia en el área de tecnología, Pablo, trabaja
+con pasión por lo que hace con altos valores y principios éticos. Le gusta ser
+parte de un grupo que se toma muy en serio el desarrollo continuo, la
+investigación y la innovación. En particular, Pablo encontró Ruby en 2009.
+Desde entonces se ha perfeccionado en está tecnología y su ecosistema.
+
+**Resumen:**
+Pablo es un evangelizador del software libre y exigente del uso de las buenas
+prácticas
+
+tags: **Ruby RoR JS TDD Web FullStack**
+
+### Eloy Espinaco
+
+- **nickname:** eloyesp
+- **email:** eloyesp<at>gmail.com
+- **github:** eloyesp
+- **twitter:** eloypes
+
+**Descripcion:**
+Eloy empezó desarrollar en Ruby on Rails y JavaScript invitado por un
+amigo que le pidió ayuda en un proyecto a través de Google Maps.
+El resultado además de exitoso inició a Eloy al mundo de la informática.
+
+Al poco tiempo otros proyecto surgieron a nivel local e internacional y
+Eloy fue aprendiendo rápidamente diferentes tecnologías y buenas prácticas
+hasta convertirse en todo un experto en el desarrollo de aplicaciones web
+
+Eloy es un perfeccionista, al que le gusta el buen diseño y el código bello.
+Se siente atraído por los desafíos y le gusta compartir sus conocimientos
+y aprender nuevas herramientas.
+
+**Resumen:**
+Eloy es un autentico gurú de la informática que genera código de excelente
+calidad.
+
+tags: Ruby RoR BestPracticies Web FullStack TDD
