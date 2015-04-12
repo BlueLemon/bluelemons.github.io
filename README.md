@@ -53,10 +53,12 @@ proyectos de forma clara y directa, *no quedamos bien a costa del cliente*.
 
 ## Software claro
 
-Priorizamos la funcionalidad sobre el decorado, hacemos software sin sobrecarga 
-de funciones. Esto nos permite facilitar el mantenimiento, la extensión y la 
-reutilización en distintas aplicaciones. Utilizamos tecnologías libres que no 
-atan al cliente y le permiten crecer sin obstáculos.
+Hacemos el software lo más simple posible, quitando el decorado y las funciones 
+innecesarias. El resultado es un sistema más fácil de usar y mantener, haciendo 
+posible su extensión y adaptación a nuevas situaciones.
+
+Utilizamos sólo tecnologías libres que no atan al cliente y permiten crecer sin 
+obstáculos.
 
 ## Todos trabajan
 
