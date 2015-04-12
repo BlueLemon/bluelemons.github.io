@@ -37,17 +37,19 @@ podemos ayudarlo a avanzar hacia una más flexible.
 
 # Cómo lo hacemos
 
-## Priorizamos los objetivos a largo plazo, no las ventajas inmediatas.
+A diferencia de muchas otras empresas del rubro, nosotros priorizamos los 
+objetivos a largo plazo, por sobre las ventajas inmediatas.
 
 ## Sinceridad
 
 > "El cliente nunca tiene la razón"
 
-No le damos la razón al cliente, discutimos e intentamos que tenga éxito en lo
-que intenta, no solo tenerlo contento.
+Creemos que las relaciones comerciales no se fundamentan en "*tener al cliente 
+contento*", por eso no le damos la razón al cliente, porque priorizamos que 
+**tenga éxito** a largo plazo.
 
 Discutimos las limitaciones, los errores, toda la información sobre los
-proyectos de manera real, no quedamos bien a costa del cliente.
+proyectos de forma clara y directa, *no quedamos bien a costa del cliente*.
 
 ## Software claro
 
