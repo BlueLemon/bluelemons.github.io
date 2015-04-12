@@ -60,7 +60,7 @@ posible su extensión y adaptación a nuevas situaciones.
 Utilizamos sólo tecnologías libres que no atan al cliente y permiten crecer sin 
 obstáculos.
 
-## Todos trabajan
+## Todos participan
 
 Las metodologías ágiles tienen que ver con trabajar con el cliente, no para el
 cliente.
@@ -73,8 +73,9 @@ buenas prácticas y la última tecnología.
 
 ## Precio diferenciado
 
-Si nos gusta el proyecto o realmente es algo necesario, nosotros pagamos parte del
-proyecto.
+No somos baratos, ni nos centramos en reducir los costos de desarrollo, ya que 
+nos centramos en la calidad, pero si nos gusta el proyecto o nos parece 
+realmente necesario nosotros nos hacemos cargo de parte de los gastos.
 
 # Quiénes somos
 
