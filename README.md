@@ -8,13 +8,31 @@ Bluelemons representa jugar con la informática y pensar que siempre se puede.
 
 ## Desarrollo de aplicaciones web "*full stack*"
 
+Desde el desarrollo de la idea hasta la interfase de usuario, la configuración 
+del deploy y la elección de la base de datos, podemos ayudarlo a llevar su idea 
+a una aplicación.
+
 ## Consultoría y desarrollo de ideas
+
+Lo podemos ayudar a desarrollar su idea, ayudarlo a encontrar las herramientas 
+que necesita para llevar a cabo su idea, las personas que lo pueden ayudar y la 
+arquitectura que más le conviene para llevar a cabo su idea.
 
 ## Entrenamiento de equipos
 
+Nos integramos con su equipo de trabajo, trabajamos junto con ellos haciendo 
+*pair programming* y revisión de código, para ayudarlos a integrar las ideas de 
+desarrollo ágil a su equipo.
+
 ## Revisión de código
 
+Si necesita un análisis de un código, realizaremos un exhaustivo análisis del 
+mismo.
+
 ## Migración de arquitecturas
+
+Si está atado a una arquitectura que le está impidiendo seguir avanzando, 
+podemos ayudarlo a avanzar hacia una más flexible.
 
 # Cómo lo hacemos
 
