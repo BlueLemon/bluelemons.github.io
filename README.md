@@ -4,43 +4,60 @@ Una software factory para cuando las demás fallan
 
 Bluelemons representa jugar con la informática y pensar que siempre se puede.
 
-> Priorizamos los objetivos a largo plazo, no las ventajas inmediatas.
+# Qué hacemos
 
-> Sinceridad
+## Desarrollo de aplicaciones web "*full stack*"
 
-"El cliente nunca tiene la razón"
+## Consultoría y desarrollo de ideas
+
+## Entrenamiento de equipos
+
+## Revisión de código
+
+## Migración de arquitecturas
+
+# Cómo lo hacemos
+
+## Priorizamos los objetivos a largo plazo, no las ventajas inmediatas.
+
+## Sinceridad
+
+> "El cliente nunca tiene la razón"
+
 No le damos la razón al cliente, discutimos e intentamos que tenga éxito en lo
 que intenta, no solo tenerlo contento.
+
 Discutimos las limitaciones, los errores, toda la información sobre los
 proyectos de manera real, no quedamos bien a costa del cliente.
 
-> Software claro
+## Software claro
 
-Lo más simple posible, sistemas entendíbles y fáciles de mantener.
-El software claro es menos estético que su contra parte y la usabilidad prioriza un
-uso inmediato, pero eso va en desmedro de la usabilidad real a largo plazo, la
-mantenibilidad, la articulación con otras aplicaciones y los usos en distintas
-aplicaciones.
+Hacemos los sistemas lo más simple posible, sistemas entendíbles y fáciles de 
+mantener.
 
-> Todos trabajan
+El software claro es menos estético que su contra parte, ya que prioriza la 
+funcionalidad, la mantenibilidad, la articulación con otras aplicaciones y los 
+usos en distintas aplicaciones.
+
+## Todos trabajan
 
 Las metodologías ágiles tienen que ver con trabajar con el cliente, no para el
 cliente.
 
-> Mejora continua
+## Mejora continua
 
 Siempre intentamos utilizar las últimas tecnologías, toda inversión incluye el que
 nosotros estudiemos y apliquemos lo nuevo en el mercado, a cambio, usted obtiene
 buenas prácticas y la última tecnología.
 
-> Precio diferenciado
+## Precio diferenciado
 
 Si nos gusta el proyecto o realmente es algo necesario, nosotros pagamos parte del
 proyecto.
 
-## El equipo
+# Quiénes somos
 
-### Pablo Oldani
+## Pablo Oldani
 - **nickname:** olvap
 - **email:** oldani.pablo<at>gmail.com
 - **github:** olvap
@@ -68,9 +85,9 @@ Desde entonces se ha perfeccionado en está tecnología y su ecosistema.
 Pablo es un evangelizador del software libre y exigente del uso de las buenas
 prácticas
 
-tags: **Ruby RoR JS TDD Web FullStack**
+tags: **Ruby, RoR, javascript, TDD, Web FullStack**
 
-### Eloy Espinaco
+## Eloy Espinaco
 
 - **nickname:** eloyesp
 - **email:** eloyesp<at>gmail.com
@@ -94,4 +111,4 @@ y aprender nuevas herramientas.
 Eloy es un autentico gurú de la informática que genera código de excelente
 calidad.
 
-tags: Ruby RoR BestPracticies Web FullStack TDD
+tags: **Ruby, RoR, BestPracticies, Web FullStack, TDD, git, javascript**
