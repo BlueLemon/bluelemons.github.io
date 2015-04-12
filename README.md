@@ -14,9 +14,10 @@ a una aplicación.
 
 ## Consultoría y desarrollo de ideas
 
-Lo podemos ayudar a desarrollar su idea, ayudarlo a encontrar las herramientas 
-que necesita para llevar a cabo su idea, las personas que lo pueden ayudar y la 
-arquitectura que más le conviene para llevar a cabo su idea.
+Lo ayudamos a desarrollar su idea, a encontrar la mejor arquitectura y las 
+herramientas que necesita para llevarla a cabo. Lo asesoramos para comprender 
+las ventajas de cada opción, identificar los requerimientos y encontrar las 
+personas clave.
 
 ## Entrenamiento de equipos
 
