@@ -53,12 +53,10 @@ proyectos de forma clara y directa, *no quedamos bien a costa del cliente*.
 
 ## Software claro
 
-Hacemos los sistemas lo más simple posible, sistemas entendíbles y fáciles de 
-mantener.
-
-El software claro es menos estético que su contra parte, ya que prioriza la 
-funcionalidad, la mantenibilidad, la articulación con otras aplicaciones y los 
-usos en distintas aplicaciones.
+Priorizamos la funcionalidad sobre el decorado, hacemos software sin sobrecarga 
+de funciones. Esto nos permite facilitar el mantenimiento, la extensión y la 
+reutilización en distintas aplicaciones. Utilizamos tecnologías libres que no 
+atan al cliente y le permiten crecer sin obstáculos.
 
 ## Todos trabajan
 
