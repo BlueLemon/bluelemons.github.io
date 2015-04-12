@@ -27,8 +27,8 @@ desarrollo ágil a su equipo.
 
 ## Revisión de código
 
-Si necesita un análisis de un código, realizaremos un exhaustivo análisis del 
-mismo.
+Para evitar gastos innecesarios de tiempo y dinero realizamos un análisis 
+exhaustivo del código buscando cuellos de botella y fallos de diseño.
 
 ## Migración de arquitecturas
 
