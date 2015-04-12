@@ -21,8 +21,8 @@ personas clave.
 
 ## Entrenamiento de equipos
 
-Nos integramos con su equipo de trabajo, trabajamos junto con ellos haciendo 
-*pair programming* y revisión de código, para ayudarlos a integrar las ideas de 
+Nos integramos con su equipo de trabajo, programamos junto a ellos y revisamos 
+el código y automatizamos los test, para ayudarlos a integrar las ideas de 
 desarrollo ágil a su equipo.
 
 ## Revisión de código
