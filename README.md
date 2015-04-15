@@ -134,3 +134,20 @@ Eloy es un autentico gurú de la informática que genera código de excelente
 calidad.
 
 tags: **Ruby, RoR, BestPracticies, Web FullStack, TDD, git, javascript**
+
+# Desarrollo
+
+Para instalar las dependencias.
+
+```sh
+bundle install
+npm install
+```
+
+Para iniciar el server
+
+```sh
+npm start
+# o
+gulp
+```
