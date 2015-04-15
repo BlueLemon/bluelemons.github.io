@@ -6,7 +6,7 @@ var express = require('express');
 var ecstatic = require('ecstatic');
 var connect_livereload = require('connect-livereload')
 
-var paths = ['_sass/*.scss', 'css/*.css', '*.md', '*.html'];
+var paths = ['_sass/*.scss', 'css/*.scss', '*.md', '*.html'];
 
 gulp.task('watch', function() {
   gulp.watch(paths, ['jekyll']);
