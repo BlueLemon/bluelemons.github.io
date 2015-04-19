@@ -17,7 +17,7 @@ html , body {
 }
 
 header {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #DEE;
   border-top: 1px solid black; // prevent top-margin.
   text-align: center;
@@ -26,6 +26,10 @@ header {
   h1 {
     // center the title a little bit.
     margin-top: 10%;
+  }
+
+  p {
+    margin: auto;
   }
 }
 
