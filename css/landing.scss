@@ -13,7 +13,7 @@
 }
 
 html {
-  font-size: 4.5vmin;
+  font-size: 4vmin;
 }
 
 html , body {
@@ -47,6 +47,15 @@ header::after {
   position: absolute;
   bottom: 1%;
   opacity: 0.4;
+}
+
+header {
+  h1 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 1.5em;
+  }
 }
 
 section {
