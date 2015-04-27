@@ -1,6 +1,8 @@
 ---
 ---
 
+// fonts
+
 @font-face {
   font-family: 'icons';
   src: url('../font/icons.eot?53092169');
@@ -12,17 +14,59 @@
   font-style: normal;
 }
 
+// base
+
 html {
   font-size: 4.5vmin;
 }
+
+h1 , h2 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size:  2em;
+}
+
+p {
+  max-width: 800px;
+  margin: 0 8px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  padding: 30px;
+  display: inline-block;
+}
+
+// layout
 
 html , body {
   margin: 0;
 }
 
-h1 , h2 {
-  font-family: 'Lato', sans-serif;
+section {
+  margin: 5px 0 0;
+  padding: 0 5px 5px;
+  background: #EED;
+  text-align: center;
+
+  section {
+    display: inline-block;
+    background: #DEC;
+    max-width: 15em;
+    text-align: left;
+    vertical-align: top;
+    margin: 0 2.5px 5px;
+  }
 }
+
+// module header
 
 header {
   min-height: 100vh;
@@ -55,67 +99,4 @@ header::after {
   left: 0;
   width: 100%;
   opacity: 0.3;
-}
-
-section {
-  margin: 5px 0 0;
-  padding: 0 5px 5px;
-  background: #EED;
-  text-align: center;
-
-  section {
-    display: inline-block;
-    background: #DEC;
-    max-width: 15em;
-    text-align: left;
-    vertical-align: top;
-    margin: 0 2.5px 5px;
-  }
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-nav {
-  ul {
-    padding: 0 10px;
-    margin: auto;
-    background: #222;
-    color: white;
-  }
-  li {
-    background: #333;
-    padding: 0.5em;
-    margin: 5px 5px;
-  }
-}
-
-
-section ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-h1 , h2 {
-  text-align: center;
-}
-
-h1 {
-  font-size:  2em;
-}
-
-p {
-  max-width: 800px;
-  margin: 0 8px;
-}
-
-li {
-  padding: 30px;
-  display: inline-block;
 }
