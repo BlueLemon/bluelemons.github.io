@@ -66,37 +66,38 @@ section {
   }
 }
 
+// module profile
+
+@import 'profile';
+
 // module header
 
-header {
+body > header {
   min-height: 100vh;
   background-color: #DEE;
   border-top: 1px solid black; // prevent top-margin.
   text-align: center;
   font-size: 1.2rem;
-
   h1 {
     // center the title a little bit.
     margin-top: 25vh;
     font-size: 2em;
   }
-
   p {
     margin: auto;
     font-size: 1.5em;
   }
-}
-
-header::after {
-  content: '\e803';
-  font-size: 3em;
-  font-family: "icons";
-  line-height: 1em;
-  text-align: center;
-  text-decoration: none;
-  position: absolute;
-  bottom: 1%;
-  left: 0;
-  width: 100%;
-  opacity: 0.3;
+  &::after {
+    content: '\e803';
+    font-size: 3em;
+    font-family: "icons";
+    line-height: 1em;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    bottom: 1%;
+    left: 0;
+    width: 100%;
+    opacity: 0.3;
+  }
 }

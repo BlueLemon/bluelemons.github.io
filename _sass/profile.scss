@@ -1,0 +1,63 @@
+section.profile {
+  display: inline-block;
+  max-width: 400px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 4px 4px 4px black;
+  background-color: #d6d2c2;
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 25px;
+    border-bottom: solid 0.5px grey;
+  }
+  h2 {
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    max-width: 160px;
+  }
+  img {
+    border-radius: 50%;
+    border: solid 2px rgba(20, 20, 20, 0.6);
+  }
+  p {
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+  }
+  a.twitter {
+    font-size: 2em;
+    display: block;
+    transition: all 0.5s ease-out;
+    width: 1em;
+    overflow: hidden;
+  }
+  a.twitter:before {
+    content: "\f099";
+    font-family: "FontAwesome";
+  }
+  a.twitter:hover {
+    color: blue;
+    width: 6em;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  a:visited {
+    color: inherit;
+  }
+   ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+   ul li {
+    margin: 3px;
+  }
+}
