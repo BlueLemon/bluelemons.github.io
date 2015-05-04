@@ -1,0 +1,64 @@
+$primary-color: hsl(50,80,70);
+
+nav {
+  & > a {
+    width: 2.2rem;
+    height: 2.2rem;
+    background: $primary-color;
+    display: block;
+    font-size: 0;
+  }
+  & > a:before {
+    content: "=";
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    border: 1px solid blue;
+  }
+
+  a[title=hide] {
+    display: none;
+  }
+
+  &:target {
+    a[title=show] {
+      display: none;
+    }
+    a[title=hide] {
+      display: block;
+    }
+    ul {
+      display: block;
+    }
+  }
+
+  position: fixed;
+  top: 5px;
+  right: 5px;
+
+  ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    display: none;
+  }
+
+  li {
+    border: 1px solid darken($primary-color, 20);
+    background: $primary-color;
+    display: inline-block;
+    opacity: 0.4;
+    margin: 2px 2px 0 0;
+    padding: 2px;
+    width: 4em;
+    height: 1.2em;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.5s linear;
+  }
+
+  &:hover li {
+    background: $primary-color;
+    opacity: 1;
+  }
+}
