@@ -46,7 +46,7 @@ nav {
   li {
     border: 1px solid darken($primary-color, 20);
     background: $primary-color;
-    display: inline-block;
+    display: list-item;
     opacity: 0.4;
     margin: 2px 2px 0 0;
     padding: 2px;
