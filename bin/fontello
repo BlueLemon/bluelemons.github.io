@@ -6,9 +6,10 @@ FONT_DIR='./vendor/fontello'
 FONTELLO_HOST='http://fontello.com'
 
 function open {
+  [[ ! -f .fontello ]] &&
   curl --silent --show-error --fail --output .fontello \
-      --form "config=@${FONT_DIR}/config.json" \
-      ${FONTELLO_HOST}
+       --form "config=@${FONT_DIR}/config.json" \
+       ${FONTELLO_HOST}
   x-www-browser ${FONTELLO_HOST}/`cat .fontello`
 }
 
@@ -27,4 +28,5 @@ then
   save
 else
   open
+  echo "customize the set and use \"fontello save\""
 fi
