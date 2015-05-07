@@ -2,19 +2,22 @@ $primary-color: hsl(50,80,70);
 
 nav {
   & > a {
-    width: 2.2rem;
-    height: 2.2rem;
-    background: $primary-color;
+    width: 2rem;
+    height: 2rem;
     display: block;
     float: right;
     font-size: 0;
   }
   & > a:before {
-    content: "=";
+    content: "\e800";
+    font-family: 'icons';
     display: block;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     text-align: center;
-    border: 1px solid blue;
+    background: $primary-color;
+    border: 1px solid darken($primary-color, 20);
+    box-shadow: 0px 2px 4px 1px darken($primary-color, 50);
   }
 
   a[title=hide] {
