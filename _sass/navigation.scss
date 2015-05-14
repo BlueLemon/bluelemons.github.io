@@ -1,69 +1,20 @@
 $primary-color: hsl(50,80,70);
 
 nav {
-  & > a {
-    width: 2rem;
-    height: 2rem;
-    display: block;
-    float: right;
-    font-size: 0;
-  }
-  & > a:before {
-    content: "\e800";
-    font-family: 'icons';
-    display: block;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    text-align: center;
-    background: $primary-color;
-    border: 1px solid darken($primary-color, 20);
-    box-shadow: 0px 2px 4px 1px darken($primary-color, 50);
-  }
-
-  a[title=hide] {
-    display: none;
-  }
-
-  &:target {
-    a[title=show] {
-      display: none;
-    }
-    a[title=hide] {
-      display: block;
-    }
-    ul {
-      display: block;
-    }
-  }
-
-  position: fixed;
-  top: 5px;
-  right: 5px;
+  width: 100%;
+  background: lighten($primary-color, 10);
+  padding: 0.5em 0;
 
   ul {
     list-style: none;
     text-align: center;
-    margin: 0;
-    margin-top: 40px;
-    display: none;
+    padding: 0;
   }
 
   li {
     border: 1px solid darken($primary-color, 20);
     background: $primary-color;
-    display: list-item;
-    opacity: 0.4;
-    margin: 2px 2px 0 0;
-    padding: 2px;
+    display: inline-block;
     width: 4em;
-    height: 1.2em;
-    border-radius: 5px;
-    overflow: hidden;
-    transition: all 0.5s linear;
-  }
-
-  &:hover li {
-    background: $primary-color;
-    opacity: 1;
   }
 }
