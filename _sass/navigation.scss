@@ -9,12 +9,20 @@ nav {
     list-style: none;
     text-align: center;
     padding: 0;
+    margin: 5px;
   }
 
   li {
     border: 1px solid darken($primary-color, 20);
+    border-radius: 2px;
     background: $primary-color;
     display: inline-block;
+  }
+
+  a {
     width: 4em;
+    display: block;
+    height: 2em;
+    line-height: 2em;
   }
 }
