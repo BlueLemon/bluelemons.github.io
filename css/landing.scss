@@ -50,40 +50,6 @@ section {
   }
 }
 
-// module profile
-
 @import 'profile';
-
 @import 'navigation';
-
-// module header
-
-body > header {
-  min-height: 80vh;
-  background-color: #DEE;
-  border-top: 1px solid black; // prevent top-margin.
-  text-align: center;
-  font-size: 1.2rem;
-  position: relative;
-  h1 {
-    margin-top: 25vh;
-    font-size: 2em;
-  }
-  p {
-    margin: auto;
-    font-size: 1.5em;
-  }
-  &::after {
-    content: '\e803';
-    font-size: 3em;
-    font-family: "icons";
-    line-height: 1em;
-    text-align: center;
-    text-decoration: none;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0.3;
-  }
-}
+@import 'header';
