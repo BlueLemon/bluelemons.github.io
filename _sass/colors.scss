@@ -1,0 +1,53 @@
+$hue-primary:   195;
+$hue-secondary: 30;
+$hue-emphasis:  0;
+
+html {
+  background-color: hsl($hue-primary, 20, 80);
+  color: hsl($hue-primary, 20, 30);
+}
+
+a {
+  color: inherit;
+}
+
+body > header {
+  background-color: hsl($hue-primary, 40, 70);
+  color: hsl($hue-primary, 40, 20);
+}
+
+nav {
+  background: hsl($hue-secondary, 60, 80);
+  li {
+    border: 1px solid hsl($hue-secondary, 70, 60);
+    background: hsl($hue-secondary, 70, 70);
+  }
+}
+
+section {
+  h1 {
+    background-color: hsl($hue-emphasis, 50, 60);
+    color: hsl($hue-emphasis, 50, 15);
+  }
+}
+
+section.profile {
+  background-color: hsl($hue-secondary, 20, 70);
+  header {
+    border-bottom: solid 0.5px hsl($hue-emphasis, 80, 30);
+  }
+  img {
+    border: solid 2px hsl($hue-emphasis, 80, 30);
+  }
+  a:hover {
+    color: hsl($hue-emphasis, 80, 40);
+  }
+  a {
+    color: inherit;
+  }
+  ul.tags {
+    li {
+      background-color: hsl($hue-emphasis, 40, 70);
+    }
+  }
+}

@@ -1,6 +1,5 @@
 nav {
   width: 100%;
-  background: lighten($primary-color, 10);
   padding: 0.5em 0;
 
   ul {
@@ -11,9 +10,7 @@ nav {
   }
 
   li {
-    border: 1px solid darken($primary-color, 20);
     border-radius: 2px;
-    background: $primary-color;
     display: inline-block;
   }
 
